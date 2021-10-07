@@ -54,26 +54,76 @@
             lfie practive examples, so that you can create your own website to
             connect with the people around the world.
         </p>
-        <button type="button" class="btn btn-primary">Get started today</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Get started today
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Welcome!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="container-fluid m-3">
-        <div class="row">
-            <div class="col">
+    <div class="container-fluid pt-3">
+        <div class="
+          row
+          d-flex
+          justify-content-evenly
+          border-bottom border-4
+          m-3
+          pb-5
+        ">
+            <div class="col-sm mb-3">
                 <h3>HTML</h3>
-                <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own web pages or website.</p>
+                <p>
+                    HTML is the standard markup language for describing the structure of
+                    the web pages. Our HTML tutorials will help you to understand the
+                    basics of latest HTML5 language, so that you can create your own web
+                    pages or website.
+                </p>
                 <button type="button" class="btn btn-success">Learn More >></button>
             </div>
-            <div class="col">
+            <div class="col-sm mb-3">
                 <h3>CSS</h3>
-                <p>CSS is used for describing the presentation of web pages. CSS can save a lit og time and effort. Our CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the style and layout of your website.</p>
+                <p>
+                    CSS is used for describing the presentation of web pages. CSS can
+                    save a lit og time and effort. Our CSS tutorials will help you to
+                    learn the essentials of latest CSS3, so that you can control the
+                    style and layout of your website.
+                </p>
                 <button type="button" class="btn btn-success">Learn More >></button>
             </div>
-            <div class="col">
+            <div class="col-sm mb-3">
                 <h3>Bootstrap</h3>
-                <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can easily create responsive websites.</p>
+                <p>
+                    Bootstrap is a powerful front-end framework for faster and easier
+                    web development. Our Bootstrap tutorials will help you to learn all
+                    the features of latest Bootstrap 4 framework so that you can easily
+                    create responsive websites.
+                </p>
                 <button type="button" class="btn btn-success">Learn More >></button>
             </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between container-fluid my-3 position-relative bottom-0">
+        <div class="col-sm">Copyright @ 2019 Tutorial Republic</div>
+        <div class="d-flex mb-2 mb-lg-0">
+            <a class="nav-link text-dark pt-0 pb-0 border-end border-4" href="#">Terms of Use</a>
+            <a class="nav-link text-dark pt-0 pb-0" href="#">Privacy Policy</a>
         </div>
     </div>
 
